@@ -1,0 +1,41 @@
+# SolidWorks geçici dosyalar
+*.swp
+*.lck
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+*.sldprt.bak
+*.sldasm.bak
+
+# Simülasyon sonuç dosyaları (büyük)
+*.CWR
+*.frd
+*.dat
+
+# AutoCAD geçici
+*.bak
+*.dwl
+*.dwl2
+*.ac$
+
+# Windows
+Thumbs.db
+desktop.ini
+*.tmp
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Büyük export dosyaları — Google Drive'a yükle, link bırak
+# *.STL  # STL dosyaları Git LFS ile tutulabilir
+# *.STEP # STEP dosyaları Git LFS ile tutulabilir
+
+# Log dosyaları
+*.log
+logs/
+
+# Render/görüntüleme önbelleği
+.visualize/
